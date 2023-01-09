@@ -1,22 +1,23 @@
 from pynput import keyboard
+# the subprocess is uses to run system commands
 import subprocess
 
 
 
 ##################################################
 #   hootkey
-def on_activate_a():
-    print('<ctrl>+<alt>+a pressed')
+def on_activate_1():
+    pass
 
-def on_activate_h():
-    print('<ctrl>+<alt>+h pressed')
+def on_activate_1():
+    pass
 
-def on_activate_i():
-    print('<ctrl>+<alt>+i pressed')
+def on_activate_1():
+    pass
 
 with keyboard.GlobalHotKeys({
-        '<ctrl>+<alt>+h': on_activate_h,
-        '<ctrl>+<alt>+i': on_activate_i,
-        '<cmd>+a': on_activate_a,}) as h:
+        '<ctrl>+<alt>+h': on_activate_1,
+        '<ctrl>+<alt>+i': on_activate_2,
+        '<cmd>+a': on_activate_3,}) as h:
     h.join()
 ##################################################
