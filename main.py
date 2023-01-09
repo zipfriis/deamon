@@ -1,5 +1,5 @@
 from pynput import keyboard
-# the subprocess is uses to run system commands
+# the subprocess is uses to run system commands instead of a pss in a funktion
 import subprocess
 
 
