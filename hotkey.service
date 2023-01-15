@@ -1,5 +1,5 @@
 [Unit]
-Description=My artificial assistant
+Description=hotkey demaon
 After=multi-user.target
 
 [Service]
