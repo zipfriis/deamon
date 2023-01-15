@@ -5,7 +5,7 @@ import subprocess
 
 
 ##################################################
-#   hootkey
+#   hotkey
 def on_activate_1():
     pass
 
